@@ -217,6 +217,7 @@ class ComposerStaticInitaf8f81a2e61c78c7d29cb5938a7c7fe3
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'Grosv\\LaravelPasswordlessLogin\\' => 31,
         ),
         'F' => 
         array (
@@ -547,6 +548,10 @@ class ComposerStaticInitaf8f81a2e61c78c7d29cb5938a7c7fe3
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Grosv\\LaravelPasswordlessLogin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src',
         ),
         'Fx3costa\\LaravelChartJs\\' => 
         array (
@@ -1839,6 +1844,19 @@ class ComposerStaticInitaf8f81a2e61c78c7d29cb5938a7c7fe3
         'Fruitcake\\Cors\\HandleCors' => __DIR__ . '/..' . '/fruitcake/laravel-cors/src/HandleCors.php',
         'Fx3costa\\LaravelChartJs\\Builder' => __DIR__ . '/..' . '/fx3costa/laravelchartjs/src/Builder.php',
         'Fx3costa\\LaravelChartJs\\Providers\\ChartjsServiceProvider' => __DIR__ . '/..' . '/fx3costa/laravelchartjs/src/Providers/ChartjsServiceProvider.php',
+        'Grosv\\LaravelPasswordlessLogin\\Exceptions\\ExpiredSignatureException' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/Exceptions/ExpiredSignatureException.php',
+        'Grosv\\LaravelPasswordlessLogin\\Exceptions\\InvalidSignatureException' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/Exceptions/InvalidSignatureException.php',
+        'Grosv\\LaravelPasswordlessLogin\\LaravelPasswordlessLoginController' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/LaravelPasswordlessLoginController.php',
+        'Grosv\\LaravelPasswordlessLogin\\LaravelPasswordlessLoginProvider' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/LaravelPasswordlessLoginProvider.php',
+        'Grosv\\LaravelPasswordlessLogin\\LoginUrl' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/LoginUrl.php',
+        'Grosv\\LaravelPasswordlessLogin\\Models\\Models\\Manager' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/Models/Models/Manager.php',
+        'Grosv\\LaravelPasswordlessLogin\\Models\\Models\\User' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/Models/Models/User.php',
+        'Grosv\\LaravelPasswordlessLogin\\Models\\User' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/Models/User.php',
+        'Grosv\\LaravelPasswordlessLogin\\PasswordlessLogin' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/PasswordlessLogin.php',
+        'Grosv\\LaravelPasswordlessLogin\\PasswordlessLoginManager' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/PasswordlessLoginManager.php',
+        'Grosv\\LaravelPasswordlessLogin\\PasswordlessLoginService' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/PasswordlessLoginService.php',
+        'Grosv\\LaravelPasswordlessLogin\\Traits\\PasswordlessLogin' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/Traits/PasswordlessLogin.php',
+        'Grosv\\LaravelPasswordlessLogin\\UserClass' => __DIR__ . '/..' . '/grosv/laravel-passwordless-login/src/UserClass.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
         'GuzzleHttp\\ClientInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/ClientInterface.php',
         'GuzzleHttp\\Cookie\\CookieJar' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Cookie/CookieJar.php',

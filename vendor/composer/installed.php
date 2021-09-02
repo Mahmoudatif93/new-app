@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '6884229e63fa91a5cbb8fc2caa122ce8574e8ae5',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -219,6 +219,15 @@
             'aliases' => array(),
             'reference' => 'fc10d778e4b84d5bd315dad194661e091d307c6f',
             'dev_requirement' => true,
+        ),
+        'grosv/laravel-passwordless-login' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../grosv/laravel-passwordless-login',
+            'aliases' => array(),
+            'reference' => 'd06f74f53483721e47d8a2b962bc3307155b5f52',
+            'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
             'pretty_version' => '6.5.5',
@@ -446,12 +455,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '6884229e63fa91a5cbb8fc2caa122ce8574e8ae5',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(

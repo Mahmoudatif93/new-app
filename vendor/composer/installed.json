@@ -1430,6 +1430,58 @@
             "install-path": "../fzaninotto/faker"
         },
         {
+            "name": "grosv/laravel-passwordless-login",
+            "version": "1.6.0",
+            "version_normalized": "1.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grosv/laravel-passwordless-login.git",
+                "reference": "d06f74f53483721e47d8a2b962bc3307155b5f52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grosv/laravel-passwordless-login/zipball/d06f74f53483721e47d8a2b962bc3307155b5f52",
+                "reference": "d06f74f53483721e47d8a2b962bc3307155b5f52",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0"
+            },
+            "time": "2021-02-11T17:24:27+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": "Grosv\\LaravelPasswordlessLogin\\LaravelPasswordlessLoginProvider"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Grosv\\LaravelPasswordlessLogin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ed Grosvenor",
+                    "email": "ed.grosvenor@wickedviral.com"
+                }
+            ],
+            "description": "Passwordless login using temporary signed URL",
+            "support": {
+                "issues": "https://github.com/grosv/laravel-passwordless-login/issues",
+                "source": "https://github.com/grosv/laravel-passwordless-login/tree/1.6.0"
+            },
+            "install-path": "../grosv/laravel-passwordless-login"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "6.5.5",
             "version_normalized": "6.5.5.0",
