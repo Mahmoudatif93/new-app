@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6884229e63fa91a5cbb8fc2caa122ce8574e8ae5',
+        'reference' => '948a3bf469a3c873911fe71dae33b58e3b0933a4',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -460,7 +460,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6884229e63fa91a5cbb8fc2caa122ce8574e8ae5',
+            'reference' => '948a3bf469a3c873911fe71dae33b58e3b0933a4',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
@@ -1372,6 +1372,15 @@
             'aliases' => array(),
             'reference' => 'bafc69caeb4d49c39fd0779086c03a3738cbb389',
             'dev_requirement' => true,
+        ),
+        'yajra/laravel-datatables-oracle' => array(
+            'pretty_version' => 'v9.18.1',
+            'version' => '9.18.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yajra/laravel-datatables-oracle',
+            'aliases' => array(),
+            'reference' => '7148225d52bcdfdd77c24e8d456058f1150b84e7',
+            'dev_requirement' => false,
         ),
         'yajra/laravel-oci8' => array(
             'pretty_version' => 'v7.1.1',

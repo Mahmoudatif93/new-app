@@ -168,6 +168,8 @@ return [
         Yajra\Oci8\Oci8ServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
         Adldap\Laravel\AdldapServiceProvider::class,
+        Yajra\DataTables\DataTablesServiceProvider::class,
+
 
         /*
          * Package Service Providers...
@@ -237,7 +239,9 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
-        'Adldap' => Adldap\Laravel\Facades\Adldap::class
+        'Adldap' => Adldap\Laravel\Facades\Adldap::class,
+        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+
 
 
 
