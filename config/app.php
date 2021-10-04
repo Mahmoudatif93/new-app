@@ -169,6 +169,7 @@ return [
         Barryvdh\DomPDF\ServiceProvider::class,
         Adldap\Laravel\AdldapServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
+        Yajra\DataTables\ButtonsServiceProvider::class,
 
 
         /*
